@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Box Office Predictions</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script rel="text/javascript" scr="js.index.js"></script>
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  
+</head>
+
+  <body>
+    <!-- Creates the Overall Grid -->
+    <div class="container">
+    <header>
+      <nav class="navbar navbar-default navbar-top" role="navigation">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                  
+                  <div class="navbar-header">
+                  <a class="navbar-brand" href="index.html" class="btn btn-info" role="button" aria-pressed="true">Box Office Predictions</a>
+                  </div><!--navbar-header-->
+                </div><!--container-fluid-->
+              </nav><!--navbar navbar-default-->
+            </div><!--navbar-header-->   
+            <div class="collapse navbar-collapse" id="collapse"> 
+           
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a target="_blank" href="rf_lr.html">Predictions with ML</a></li>
+                <li><a target="_blank" href="Comparison.html">Visual Comparisons</a></li>
+                <li><a target="_blank" href="data.html">Data</a></li>
+                </ul><!--dropdown-menu-->
+               </div><!--collapse navbar-collapse-->
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container -->
+      </nav><!--navbar navbar-default navbar-top-->
+    </header>
+  
+        <!-- Row 1 -->
+        <div class="row">
+          <div class="col-md-12">
+          <h2>Box Office Predictions Made Using Machine Learning</h2>
+
+          </div><!--col-md-12-->
+        </div><!--row 1-->
+
+        <!-- Row 2 -->
+        <div class="row">
+          <div class="container">
+            <div class="col-md-6">
+              <div class="item"><img src="assets/Images/director_index.jpg" class="img-rounded img-responsive" alt="Director">
+              </div><!--Images-->
+            </div><!--col-md-6-->
+
+
+              <div class="col-md-6">
+                  <p>The intent of the project was inspirated by a Machine Learning competition on <a href="https://www.kaggle.com/c/tmdb-box-office-prediction">
+                      Kaggle</a>. This competition has the goal to predict the worldwide revenue for 4,398 movies using Machine Learning.  At last count, this competiton has 398 teams competing, made up of 437 competitors who have already submitted a total of 4,165 entries. This competition is scheduled to end on May 30, 2019.
+                  <br>
+                  <br>
+                  <li>The  metadata was obtained from The Movie Database (TMDB) and provided by Kaggle as part of the competition.  The metadata contained movie ID, and the data points which included cast, crew, plot keywords, budget, posters, release dates, languages, production companies, and countries in which the movies were produced all in a JSON format within a CSV file.  The team opted not to use all data points in the predictive analysis.  
+                    <br>
+                    <br>
+                
+                  <li>The movie details,credits and keywords have been collected from the <a href="https://www.themoviedb.org/documentation/api">TMDB Open API</a>.
+  </li>
+                <br>
+                <li> TMDB is used by more than 200,000 developers. On an average day, TMDB will have over a million users and process over 3 billion requests.</li>
+                <br>
+                <li> Every year since 2008, the number of contributions to our database has increased. With over 200,000 developers and companies using our platform, TMDB has become a premiere source for metadata.</li>
+                <br>
+                <li>TMDB is international and support 39 languages.  On an average day, they are used in over 180 countries. </li>
+                </ul>
+                </p>      
+              </div><!--col-md-6-->
+          </div><!--container-->
+        </div><!--row 2-->         
+      </div><!-- content container-->
+    </div><!--container-->
+  </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+</html>
